@@ -7,3 +7,8 @@
  (name client)
  (modules Client)
  (libraries piaf))
+
+(executable
+ (name badantonio)
+ (modules Badantonio)
+ (libraries piaf))
