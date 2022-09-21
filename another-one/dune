@@ -1,0 +1,9 @@
+(executable
+ (name server)
+ (modules Server)
+ (libraries piaf))
+
+(executable
+ (name client)
+ (modules Client)
+ (libraries piaf))
